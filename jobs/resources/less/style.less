@@ -1,0 +1,54 @@
+.page {
+  background-color: lightgray;
+  .job {
+    background-color: #fff;
+    padding: 15px;
+    @media screen and (max-width: 640px) {
+      width: 300px;
+    }
+    .logo {
+      position: relative;
+      img {
+        height: 40px;
+      }
+      .icon {
+        position: absolute;
+        right: 5px;
+        top: 5px;
+      }
+
+    }
+    .job-info {
+      font-size: 0.8rem;
+      margin-top: 30px;
+      .job-teaser {
+        height: 120px;
+      }
+      .job-title {
+        font-weight: bold;
+      }
+    }
+    .tags {
+      height: 64px;
+      align-items: baseline;
+      .tag {
+        background-color: #ffe9e7;
+        color: #ff7c6e;
+        text-transform: uppercase;
+      }
+    }
+    .tagline {
+      margin-bottom: 15px;
+    }
+    .action-buttons {
+      .button {
+        text-transform: uppercase;
+        &.apply {
+          background-color: #ff7c6e;
+          color: #fff;
+          margin-left: 5px;
+        }
+      }
+    }
+  }
+}

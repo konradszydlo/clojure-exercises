@@ -1,0 +1,53 @@
+.page {
+  background-color: lightgray;
+}
+.page .job {
+  background-color: #fff;
+  padding: 15px;
+}
+@media screen and (max-width: 640px) {
+  .page .job {
+    width: 300px;
+  }
+}
+.page .job .logo {
+  position: relative;
+}
+.page .job .logo img {
+  height: 40px;
+}
+.page .job .logo .icon {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
+.page .job .job-info {
+  font-size: 0.8rem;
+  margin-top: 30px;
+}
+.page .job .job-info .job-teaser {
+  height: 120px;
+}
+.page .job .job-info .job-title {
+  font-weight: bold;
+}
+.page .job .tags {
+  height: 64px;
+  align-items: baseline;
+}
+.page .job .tags .tag {
+  background-color: #ffe9e7;
+  color: #ff7c6e;
+  text-transform: uppercase;
+}
+.page .job .tagline {
+  margin-bottom: 15px;
+}
+.page .job .action-buttons .button {
+  text-transform: uppercase;
+}
+.page .job .action-buttons .button.apply {
+  background-color: #ff7c6e;
+  color: #fff;
+  margin-left: 5px;
+}
