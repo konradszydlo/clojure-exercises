@@ -1,5 +1,8 @@
 (ns scrambls.utils)
 
+(defn scramble [string]
+  (clojure.string/join (shuffle (vec string))))
+
 (defn scramble? [str1 str2]
   (and
     (>= (count str1) (count str2))
