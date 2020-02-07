@@ -9,9 +9,12 @@
     (testing "Valid scramble"
       (are [actual] (true? actual)
                     (scramble? "rekqodlw" "world")
-                    (scramble? "cedewaraaossoqqyt" "codewars")))
+                    (scramble? "cedewaraaossoqqyt" "codewars")
+                    (scramble? "foo" "foo")
+                    (scramble? "ofo" "foo")))
     (testing "Invalid scramble"
-      (is (false? (scramble? "katas" "steak")))))
+      (is (false? (scramble? "katas" "steak")))
+      (is (false? (scramble? "fo" "foo")))))
 
   (testing "Test scramble-with-transducer?"
     (testing "Valid scramble"
