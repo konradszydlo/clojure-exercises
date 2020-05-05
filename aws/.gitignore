@@ -1,0 +1,11 @@
+/target
+/.idea
+aws.iml
+local-conf.edn
+profiles.clj
+*.jar
+*.class
+/.lein-*
+/.nrepl-port
+.hgignore
+.hg/

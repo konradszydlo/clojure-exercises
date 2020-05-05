@@ -4,6 +4,8 @@ pom.xml
 /classes/
 /out/
 /target/
+/.idea
+jobs.iml
 .lein-deps-sum
 .lein-repl-history
 .lein-plugins/
